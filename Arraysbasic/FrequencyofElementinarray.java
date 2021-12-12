@@ -17,11 +17,11 @@ public class Main {
             {
                 if(arr[i]==arr[j])
                 {
-                    count++;
-                    fr[j]=visited;
+                    count++;// counting the frequency of element
+                    fr[j]=visited;// mark them as visited
                 }
             }
-            if(fr[i]!=visited){
+            if(fr[i]!=visited){// prohibiting to count the same element again
                 fr[i]=count;
             }
         }
