@@ -76,7 +76,7 @@ public void deleteVal(int val){
     if(node == null){
         return;
     }
-    if(node.data== val){
+    if(node.data== val){//if head has to be deleted
         head = head.next;
         tail.next = head;
         return;
@@ -89,7 +89,7 @@ public void deleteVal(int val){
    // System.out.println(node.data);
    // System.out.println(prev.data);
     prev.next = node.next;
-    if(node.next==head){
+    if(node.next==head){// if tail has to be deleted
        prev.next=head;
         prev = tail;
         return;
