@@ -12,7 +12,7 @@ public class Main
 		            
 		        }
 		        else if(j==0 || j==n-1){
-		            System.out.print("*");// in other cases print only first star and last star
+		            System.out.print("*");// in other cases print only first star and last star 
 		        }
 		        else{
 		            System.out.print(" ");// and middle will be spaces
