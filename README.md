@@ -1,2 +1,3 @@
-# Sorting
+# Java Basics
 
+Java codes practiced
