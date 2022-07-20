@@ -1,0 +1,1 @@
+codes colected from interview experiences
